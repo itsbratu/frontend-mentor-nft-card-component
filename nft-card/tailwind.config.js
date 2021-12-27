@@ -2,6 +2,7 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
+  important: true,
   theme: {
     extend: {
       colors: {
@@ -26,7 +27,8 @@ module.exports = {
         'info-width' : "90%",
         'value-section-width' : "40%",
         'subimage-eth-width' : "11%",
-        'subimage-clock-width' : "20%"
+        'subimage-clock-width' : "20%",
+        'eye-width' : "22%",
       },
       height: {
         'layout-height' : "85%",
@@ -35,6 +37,7 @@ module.exports = {
         'image-height' : "50%",
         'subinfo-height' : "50%",
         'avatar-height' : "75%",
+        'eye-height' : "22%",
       },
       inset : {
         "layout-x" : "5%",
@@ -42,6 +45,7 @@ module.exports = {
         "card-x" : "36%",
         "card-y" : "11%",
         "info" : "5%",
+        "eye" : "39%", 
       },
       fontSize: {
         "title-size" : ['28px' , '34px'],
@@ -50,6 +54,10 @@ module.exports = {
       backgroundImage: {
         'main-image' : "url('/public/images/image-equilibrium.jpg')",
       },
+      borderRadius: {
+        'layout' : '32px',
+        'image' : '30px',
+      }
     },
   },
   plugins: [],
