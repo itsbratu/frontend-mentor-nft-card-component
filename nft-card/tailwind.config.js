@@ -28,7 +28,15 @@ module.exports = {
         'subimage-eth-width' : "11%",
         'subimage-clock-width' : "20%",
         'eye-width' : "22%",
-        //medium screen(1450-1600)
+        //3xs screen(400-600)
+        '3xs-card-width' : "95%",
+        //2xs screen(600-850)
+        '2xs-card-width' : "66%",
+        //xs screen(850-1100)
+        'xs-card-width' : "44%",
+        //small screen(1100-1350)
+        'sm-card-width' : "36%",
+        //medium screen(1350-1600)
         'md-card-width' : "28%",
         //large screen(1600-1850)
         'lg-card-width' : "26%",
@@ -40,14 +48,8 @@ module.exports = {
         "3xl-card-width" : "20%",
         //4xl screen(2600-2850)
         "4xl-card-width" : "18%",
-        //5xl screen(2850-3100)
-        "5xl-card-width" : "16%",
-        //6xl screen(3100-3350)
-        "6xl-card-width" : "14%",
-        //7xl screen(3350-3600)
-        "7xl-card-width" : "12%",
-        //8xl screen(3600+)
-        "8xl-card-width" : "10%",
+        //5xl screen(2850-4000)
+        "5xl-card-width" : "20%",
       },
       height: {
         'layout-height' : "85%",
@@ -64,7 +66,15 @@ module.exports = {
         "card-y" : "11%",
         "info" : "5%",
         "eye" : "39%",
-        //medium screen(1450-1600)
+        //3xs screen(400-600)
+        '3xs-card-x' : "2.5%",
+        //2xs screen(600-850)
+        '2xs-card-x' : "17%",
+        //xs screen(850-1100)
+        'xs-card-x' : "28%",
+        //small screen(1100-1350)
+        'sm-card-x' : "32%",
+        //medium screen(1350-1600)
         "md-card-x" : "36%",
         //large screen(1600-1850)
         "lg-card-x" : "37%",
@@ -76,14 +86,8 @@ module.exports = {
         "3xl-card-x" : "40%",
         //4xl screen(2600-2850)
         "4xl-card-x" : "41%",
-        //5xl screen(2850-3100)
-        "5xl-card-x" : "42%",
-        //6xl screen(3100-3350)
-        "6xl-card-x" : "43%",
-        //7xl screen(3350-3600)
-        "7xl-card-x" : "44%",
-        //8xl screen(3600+)
-        "8xl-card-x" : "45%",
+        //5xl screen(2850-4000)
+        "5xl-card-x" : "40%",
       },
       fontSize: {
         "title-size" : ['28px' , '34px'],
@@ -97,16 +101,17 @@ module.exports = {
         'image' : '30px',
       },
       screens: {
-        'md' : {'min' : '1450px' , 'max' : '1600px'},
+        '3xs' : {'min' : '400px' , 'max' : '600px'},
+        '2xs' : {'min' : '600px' , 'max' : '850px'},
+        'xs' : {'min' : '850px' , 'max' : '1100px'},
+        'sm' : {'min' : '1100px' , 'max' : '1350px'},
+        'md' : {'min' : '1350px' , 'max' : '1600px'},
         'lg' : {'min' : '1600px' , 'max' : '1850px'},
         'xl' : {'min' : '1850px' , 'max' : '2100px'},
         '2xl' : {'min' : '2100px' , 'max' : '2350px'},
         '3xl' : {'min' : '2350px' , 'max' : '2600px'},
         '4xl' : {'min' : '2600px' , 'max' : '2850px'},
-        '5xl' : {'min' : '2850px' , 'max' : '3100px'},
-        '6xl' : {'min' : '3100px' , 'max' : '3350px'},
-        '7xl' : {'min' : '3350px' , 'max' : '3600px'},
-        '8xl' : {'min' : '3600px' , 'max' : '4000px'}
+        '5xl' : {'min' : '2850px' , 'max' : '4000px'},
       }
     },
   },

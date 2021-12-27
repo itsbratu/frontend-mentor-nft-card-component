@@ -8,6 +8,10 @@ const Card = () => {
 
     return(
         <div className='relative h-card-height inset-y-card-y 
+                        3xs:w-3xs-card-width 3xs:inset-x-3xs-card-x
+                        2xs:w-2xs-card-width 2xs:inset-x-2xs-card-x
+                        xs:w-xs-card-width xs:inset-x-xs-card-x
+                        sm:w-sm-card-width sm:inset-x-sm-card-x
                         md:w-md-card-width md:inset-x-md-card-x
                         lg:w-lg-card-width lg:inset-x-lg-card-x
                         xl:w-xl-card-width xl:inset-x-xl-card-x
@@ -15,9 +19,6 @@ const Card = () => {
                         3xl:w-3xl-card-width 3xl:inset-x-3xl-card-x
                         4xl:w-4xl-card-width 4xl:inset-x-4xl-card-x
                         5xl:w-5xl-card-width 5xl:inset-x-5xl-card-x
-                        6xl:w-6xl-card-width 6xl:inset-x-6xl-card-x
-                        7xl:w-7xl-card-width 7xl:inset-x-7xl-card-x
-                        8xl:w-8xl-card-width 8xl:inset-x-8xl-card-x
                         bg-neutral-card-bg rounded-layout'>
             <div className='flex flex-col relative inset-info w-info-width h-info-height'>
                 <img src='/images/image-equilibrium.jpg' className='h-image-height rounded-image cursor-pointer' onClick={() => {setImageClick(!imageClick)}} />        
