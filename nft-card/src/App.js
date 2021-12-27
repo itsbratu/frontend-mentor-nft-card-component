@@ -1,7 +1,11 @@
+import React from 'react'
+
+import CardLayout from "./CardLayout/CardLayout";
+
 function App() {
   return (
-    <div className="text-5xl font-mono">
-      <h1 className="text-neutral-card-bg font-main-font">dada</h1>
+    <div className="bg-neutral-white h-screen w-screen">
+      <CardLayout />
     </div>
   );
 }
