@@ -25,27 +25,31 @@ module.exports = {
         'card-width' : "28%",
         'info-width' : "90%",
         'value-section-width' : "40%",
-        'subimage-eth-width' : "12%",
+        'subimage-eth-width' : "11%",
         'subimage-clock-width' : "20%"
       },
       height: {
         'layout-height' : "85%",
-        'card-height' : "75%",
+        'card-height' : "78%",
         'info-height' : "90%",
-        'image-height' : "55%",
-        'subinfo-height' : "30%",
+        'image-height' : "50%",
+        'subinfo-height' : "50%",
+        'avatar-height' : "75%",
       },
       inset : {
         "layout-x" : "5%",
         "layout-y" : "7.5%",
         "card-x" : "36%",
-        "card-y" : "12.5%",
+        "card-y" : "11%",
         "info" : "5%",
       },
       fontSize: {
         "title-size" : ['28px' , '34px'],
         "time-size" : ['17px' , '23px'],
-      }
+      },
+      backgroundImage: {
+        'main-image' : "url('/public/images/image-equilibrium.jpg')",
+      },
     },
   },
   plugins: [],
